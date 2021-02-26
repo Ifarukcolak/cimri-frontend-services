@@ -12,7 +12,7 @@ const getEmoji = {
   new: "💎",
 };
 
-export default function Category({ data, query }) {
+export default function Category({ query }) {
   const { context } = useContextData();
   const [sortText, setSortText] = useState(false);
   const [filterData, setFilteredData] = useState([]);

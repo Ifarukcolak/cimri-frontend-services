@@ -1,17 +1,12 @@
 import React, { useState } from "react";
 import styles from "./product.module.scss";
 import { useRouter } from "next/router";
-// import { useAuth } from "@/firebase/context";
 
 export default function ProductCard({
-  bgColor,
   id,
-  brand,
   name,
   price,
-  sale_price,
   image,
-  favorite,
   badges,
   rate,
   content,
@@ -30,7 +25,6 @@ export default function ProductCard({
     <div
       className={styles.container}
       style={{
-        backgroundColor: bgColor || "",
       }}
       onClick={(e) => goToProduct(e.target)}
       {...props}
