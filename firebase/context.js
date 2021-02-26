@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useContext, createContext } from "react";
-import { firebase, auth, db } from "../config/firebase";
+import React, { useState, useContext, createContext } from "react";
 
 const authContext = createContext();
 export function AuthProvider({ children }) {
