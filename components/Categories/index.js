@@ -10,7 +10,7 @@ const CategoryItem = ({ name, link, emoji }) => {
 
   return (
     <li className={styles.categoryItem}>
-      <Link href={link || "/"}>
+      <Link href={link }>
         <a onClick={() => setContext(name)}>
           <span className={styles.emoji}>{emoji}</span>
           <span className={styles.categoryName}>{name}</span>

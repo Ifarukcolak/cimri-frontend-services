@@ -56,10 +56,10 @@ export default function Home({ data, query }) {
   return (
     <Layout>
       <div className={styles.container}>
-        <Head>
+        {/* <Head>
           <title>Create Next App</title>
           <link rel="icon" href="/favicon.ico" />
-        </Head>
+        </Head> */}
 
         <main className={styles.main}>
           <div className={styles.header}>
